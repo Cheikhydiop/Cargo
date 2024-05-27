@@ -1,0 +1,89 @@
+{
+  "cargaisons": [
+      {
+          "idcargo": 1,
+          "numero": "CRG001",
+          "poids_max": 5000,
+          "prix_total": 30000,
+          "lieu_depart": "Paris",
+          "lieu_arrivee": "Londres",
+          "distance_km": 350,
+          "type": "maritime",
+          "etat_avancement": "en cours",
+          "etat_globale": "ouvert",
+          "products": [
+              {
+                "id": "product1",
+                "name": "Electronics",
+                "quantity": 50,
+                "price": 500,
+                "weight": 200
+              },
+              {
+                "id": "product2",
+                "name": "Clothing",
+                "quantity": 100,
+                "price": 300,
+                "weight": 300
+              }
+            ]
+      },
+      {
+          "idcargo": 2,
+          "numero": "CRG002",
+          "poids_max": 8000,
+          "prix_total": 45000,
+          "lieu_depart": "New York",
+          "lieu_arrivee": "Los Angeles",
+          "distance_km": 3900,
+          "type": "a\u00e9rien",
+          "etat_avancement": "arriv\u00e9",
+          "etat_globale": "ferm\u00e9",
+          "products": [
+              {
+                "id": "product1",
+                "name": "Electronics",
+                "quantity": 50,
+                "price": 500,
+                "weight": 200
+              },
+              {
+                "id": "product2",
+                "name": "Clothing",
+                "quantity": 100,
+                "price": 300,
+                "weight": 300
+              }
+            ]
+      },
+      {
+          "idcargo": "6650bad98bdab",
+          "numero": "CRG488",
+          "poids_max": "1",
+          "prix_total": "10",
+          "lieu_depart": "Paris",
+          "lieu_arrivee": "Londres",
+          "distance_km": "350",
+          "type": "CargaisonRouti\u00e8re",
+          "etat_avancement": "en cours",
+          "etat_globale": "ouvert",
+          "products": [
+              {
+                "id": "product1",
+                "name": "Electronics",
+                "quantity": 50,
+                "price": 500,
+                "weight": 200
+              },
+              {
+                "id": "product2",
+                "name": "Clothing",
+                "quantity": 100,
+                "price": 300,
+                "weight": 300
+              }
+            ]
+      }
+     
+  ]
+}
